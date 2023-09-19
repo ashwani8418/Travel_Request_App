@@ -1,0 +1,28 @@
+
+# GET http://localhost:4004/odata/v4/my/Travel?$search=orig in
+
+# POST /odata/v4/my/Travel HTTP/1.1
+# HOST : localhost://4004
+# Content-Type: application/json;
+# {
+#    "origin": "meerut",
+#    "destination": "Noida",
+#    "price": "120",
+#    "Status_code": "12",
+#    "TType": "yes",
+#    "Mode_code": "car",
+#    "RoundTrip_code": "yes"
+# }
+POST /odata/v4/my/Travel HTTP/1.1
+Host: localhost:4004
+Content-Type: application/json
+
+{
+   "origin": "saharanpur",
+   "destination": "mzn",
+   "price": "220",
+   "Status": "A",
+   "TType": "no",
+   "Mode_code": "car",
+   "RoundTrip": "two"
+}

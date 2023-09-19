@@ -1,0 +1,3 @@
+origin,destination,price,Status,TDate_departure,TDate_return,TType,Mode,RoundTrip,Accomandation
+Delhi,Hyderabad,5000,APD,2023,2024,National,Flight,OneWay,Yes
+Vancuvour,San Francisco,5000,APD,2023,2024,International,Flight,OneWay,Yes

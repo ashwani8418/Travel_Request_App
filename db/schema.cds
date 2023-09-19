@@ -55,5 +55,3 @@ entity Travel {
     RoundTrip     : RoundTrip;
     Accomandation : Accomandation;
 }
-
-// for Testing
